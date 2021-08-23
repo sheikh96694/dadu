@@ -1,0 +1,31 @@
+h1{
+    outline-width: 3px;
+    outline-style:solid;
+    outline-color:red;
+    /* outline:3px solid red; */
+} 
+
+p{
+    border:3px solid red;
+    outline-width:2px;
+    outline-style:solid;
+    /* border-style:dotted; */
+    /* border-style:dashed;  */
+    /* border-style:double;  */
+    /* border-style:groove;  */
+    /* border-style:ridge;  */
+    /* border-style:inset;  */
+    /* border-style:outset;  */
+    /* border-style:none;  */
+    outline-color:green;
+    outline-offset:4px;
+/*   border:3px solid red;
+     outline:2px solid green;
+     outline-offset:4px; */
+}
+h2{
+    border-width:3px;
+    border-style:solid dotted dashed inset;
+    border-color:green red;
+    
+}
